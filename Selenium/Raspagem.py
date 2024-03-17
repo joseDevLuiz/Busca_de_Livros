@@ -58,4 +58,4 @@ tabela.loc[1, 'Preço'] = precos[1]
 tabela.loc[2, 'Nome'] = nomes[2]
 tabela.loc[2, 'Preço'] = precos[2]
 
-# tabela.to_excel('Preço_e_Livros.xlsx', index=False)
+tabela.to_excel('Preço_e_Livros.xlsx', index=False)
